@@ -1,0 +1,110 @@
+{
+    "features": [
+        {
+            "name": "Promise",
+            "infos": [
+                "UC 手机浏览器: Window 域中暂未实现"
+            ]
+        },
+        {
+            "name": "Request",
+            "infos": [
+                "UC 手机浏览器: Window 域中暂未实现",
+                "Safari: 新版本已支持"
+            ]
+        },
+        {
+            "name": "Response",
+            "infos": [
+                "UC 手机浏览器: Window 域中暂未实现",
+                "Safari: 新版本已支持",
+                "Chrome & Samsung Internet: URLSearchParams not supported yet [该问题已在M-54解决]"
+            ]
+        },
+        {
+            "name": "Registered",
+            "infos": [
+                "UC 手机浏览器: UC 将 scope 默认设为 '/'， 所以最好手动设置该选项以防带来域名匹配的安全问题。"
+            ]
+        },
+        {
+            "name": "self.skipWaiting",
+            "infos": [
+                "QQ 手机浏览器: 因 postMessage 缺失及 client.claim 不可用，暂无法确定"
+            ]
+        },
+        {
+            "name": "clients.claim",
+            "infos": [
+                "UC 手机浏览器: 方法存在，但不可用",
+                "QQ 手机浏览器: 不可用"
+            ]
+        },
+        {
+            "name": "lifecycle",
+            "infos": [
+                "UC 手机浏览器: client.claim 不可用，导致只能关闭客户端才能更新。",
+                "QQ 手机浏览器: client.claim 不可用，导致只能关闭客户端才能更新。"
+            ]
+        },
+        {
+            "name": "fetch",
+            "infos": [
+                "UC 手机浏览器: Window 域中暂未实现",
+                "可以进行 Polyfill, https://github.com/github/fetch"
+            ]
+        },
+        {
+            "name": "caches",
+            "infos": [
+                "Edge: 开发中"
+            ]
+        },
+        {
+            "name": "cache.delete",
+            "infos": [
+                "Chrome: 直到 Chrome 54 才支持所有选项"
+            ]
+        },
+        {
+            "name": "cache.keys",
+            "infos": [
+                "Chrome: 直到 Chrome 54 才支持所有选项"
+            ]
+        },
+        {
+            "name": "cache.match",
+            "infos": [
+                "Chrome: 直到 Chrome 54 才支持所有选项"
+            ]
+        },
+        {
+            "name": "postMessage",
+            "infos": [
+                "UC 手机浏览器: 可用，但 Api 实现不是最优选择。缺乏 event.source，clients.matchAll，且 messageChannel 不能正常使用 addEventListener",
+                "QQ 手机浏览器: 不能顺利进行，检测使用 window.onmessage 进行接收。",
+                "Chrome & Opera: messageEvent.source 在 worker 中为 null，但你可以传入你自己的 MessageChannel 来进行双向通信。【43后版本已修复】",
+                "Chrome & Opera: 较旧版本会将错误的将信息发送给了 window.onmessage 而不是 navigator.serviceWorker.onmessage。【新版本正常】"
+            ]
+        },
+        {
+            "name": "Notification",
+            "infos": [
+                "小米原生浏览器: 存在 Notification 对象，但不可用",
+                "UC手机浏览器: 存在 Notification 对象，但不可用",
+                "Edge: 开发中",
+                "该属性要看手机系统的开放程度，并不一定能用。"
+            ]
+        },
+        {
+            "name": "pushManager.subscribe",
+            "infos": [
+                "Chrome: 国内因不可描述的原因不可用",
+                "Opera: 国内因不可描述的原因不可用",
+                "Chrome 手机浏览器: 国内因不可描述的原因不可用",
+                "360手机浏览器: 提示不可用",
+                "百度手机浏览器: 提示不可用"
+            ]
+        }
+    ]
+}

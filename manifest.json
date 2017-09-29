@@ -1,0 +1,471 @@
+{
+    "manifest": [
+        {
+            "brand": "",
+            "device": "",
+            "rom": "ALL",
+            "detail": [
+                "不区分 ROM，仅统计浏览器支持度",
+                "Manifest 特性测试，仅针对移动端浏览器统计",
+                "Chrome：部分手机需手动开通权限",
+                "手机百度/百度浏览器：进入页面后，自主弹出的“添加到桌面”可支持 Manifest 配置，其他菜单中添加均是快捷方式",
+                "其他浏览器：目前一般仅支持添加桌面快捷方式"
+            ],
+            "browser": [
+                {
+                    "name": "Chrome",
+                    "version": "54",
+                    "score": 1
+                },
+                {
+                    "name": "百度浏览器",
+                    "version": "2.1",
+                    "score": 1
+                },
+                {
+                    "name": "手机百度",
+                    "version": "2.1",
+                    "score": 1
+                },
+                {
+                    "name": "Firefox",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "360",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "Quark",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "UC",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "QQ",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "Opera",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "搜狗",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "2345",
+                    "version": "2.1",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "brand": "原生安卓手机",
+            "device": "",
+            "rom": "Android",
+            "detail": [],
+            "browser": [
+                {
+                    "name": "Chrome",
+                    "version": "54",
+                    "score": 1
+                },
+                {
+                    "name": "百度浏览器",
+                    "version": "54",
+                    "score": 1
+                },
+                {
+                    "name": "手机百度",
+                    "version": "2.1",
+                    "score": 1
+                },
+                {
+                    "name": "Firefox",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "360",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "Quark",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "UC",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "QQ",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "Opera",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "搜狗",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "2345",
+                    "version": "2.1",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "brand": "华为",
+            "device": "P8",
+            "rom": "EMUI",
+            "detail": [
+                "360：可见添加至桌面按钮，但属快捷方式",
+                "QQ/搜狗/猎豹/2345/Opera：目前浏览器未暴露添加桌面入口"
+            ],
+            "browser": [
+                {
+                    "name": "Chrome",
+                    "version": "54",
+                    "score": 1
+                },
+                {
+                    "name": "百度浏览器",
+                    "version": "2.1",
+                    "score": 1
+                },
+                {
+                    "name": "手机百度",
+                    "version": "2.1",
+                    "score": 1
+                },
+                {
+                    "name": "Firefox",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "360",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "Quark",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "UC",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "QQ",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "Opera",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "搜狗",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "2345",
+                    "version": "2.1",
+                    "score": 0
+                }
+
+            ]
+        },
+        {
+            "brand": "VIVO",
+            "device": "X9",
+            "rom": "FuntouchOS",
+            "detail": [
+                "使用前，需在权限管理中将浏览器'添加桌面快捷方式'的权限开通"
+            ],
+            "browser": [
+                {
+                    "name": "Chrome",
+                    "version": "54",
+                    "score": 1
+                },
+                {
+                    "name": "百度浏览器",
+                    "version": "2.1",
+                    "score": 1
+                },
+                {
+                    "name": "手机百度",
+                    "version": "2.1",
+                    "score": 1
+                },
+                {
+                    "name": "Firefox",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "360",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "Quark",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "UC",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "QQ",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "Opera",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "搜狗",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "2345",
+                    "version": "2.1",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "brand": "OPPO",
+            "device": "R9sk",
+            "rom": "ColorOS",
+            "detail": [
+                "ColorOS v2.1 版本：只对 Chrome 浏览器开通了添加到桌面的功能，手机百度、百度浏览器无法找到添加至桌面图标",
+                "ColorOS v3.0 版本：所有浏览器均未开通添加桌面权限，无法找到添加至桌面图标"
+            ],
+            "browser": [
+                {
+                    "name": "Chrome",
+                    "version": "54",
+                    "score": 1
+                },
+                {
+                    "name": "百度浏览器",
+                    "version": "2.1",
+                    "score": 1
+                },
+                {
+                    "name": "手机百度",
+                    "version": "2.1",
+                    "score": 1
+                },
+                {
+                    "name": "Firefox",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "360",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "Quark",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "UC",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "QQ",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "Opera",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "搜狗",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "2345",
+                    "version": "2.1",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "brand": "魅族",
+            "device": "",
+            "rom": "Flyme",
+            "detail": [],
+            "browser": [
+                {
+                    "name": "Chrome",
+                    "version": "54",
+                    "score": 1
+                },
+                {
+                    "name": "百度浏览器",
+                    "version": "54",
+                    "score": 1
+                },
+                {
+                    "name": "手机百度",
+                    "version": "2.1",
+                    "score": 1
+                },
+                {
+                    "name": "Firefox",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "360",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "Quark",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "UC",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "QQ",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "Opera",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "搜狗",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "2345",
+                    "version": "2.1",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "brand": "小米",
+            "device": "5S",
+            "rom": "MIUI",
+            "detail": [
+                "测试前需在权限管理中对浏览器开通添加桌面权限"
+            ],
+            "browser": [
+                {
+                    "name": "Chrome",
+                    "version": "54",
+                    "score": 1
+                },
+                {
+                    "name": "百度浏览器",
+                    "version": "54",
+                    "score": 1
+                },
+                {
+                    "name": "手机百度",
+                    "version": "2.1",
+                    "score": 1
+                },
+                {
+                    "name": "Firefox",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "360",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "Quark",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "UC",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "QQ",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "Opera",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "搜狗",
+                    "version": "2.1",
+                    "score": 0
+                },
+                {
+                    "name": "2345",
+                    "version": "2.1",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "brand": "苹果",
+            "device": "iphone 6",
+            "rom": "iOS",
+            "detail": [
+                "iOS 暂不支持该属性"
+            ],
+            "browser": []
+        }
+    ]
+}
