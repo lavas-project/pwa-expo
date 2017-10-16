@@ -81,7 +81,7 @@
         {
             "name": "postMessage",
             "infos": [
-                "UC 手机浏览器: 可用，但 Api 实现不是最优选择。缺乏 event.source，clients.matchAll，且 messageChannel 不能正常使用 addEventListener",
+                "UC 手机浏览器: 可用，但 API 实现不是最优选择。缺乏 event.source，clients.matchAll，且 messageChannel 不能正常使用 addEventListener",
                 "QQ 手机浏览器: 不能顺利进行，检测使用 window.onmessage 进行接收。",
                 "Chrome & Opera: messageEvent.source 在 worker 中为 null，但你可以传入你自己的 MessageChannel 来进行双向通信。【43后版本已修复】",
                 "Chrome & Opera: 较旧版本会将错误的将信息发送给了 window.onmessage 而不是 navigator.serviceWorker.onmessage。【新版本正常】"
