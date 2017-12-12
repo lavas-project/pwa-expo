@@ -1,0 +1,394 @@
+{
+    "manifest": [
+        {
+            "brand": "",
+            "device": "",
+            "rom": "ALL",
+            "detail": [
+                "不区分 ROM，仅统计浏览器支持度",
+                "Manifest 特性测试，仅针对移动端浏览器统计",
+                "Chrome：部分手机需手动开通权限",
+                "手机百度/百度浏览器：进入页面后，自主弹出的“添加到桌面”可支持 Manifest 配置，其他菜单中添加均是快捷方式",
+                "other mobile browser：目前一般仅支持添加桌面快捷方式"
+            ],
+            "browser": [
+                {
+                    "name": "Chrome",
+                    "score": 1
+                },
+                {
+                    "name": "百度浏览器",
+                    "score": 1
+                },
+                {
+                    "name": "手机百度",
+                    "score": 1
+                },
+                {
+                    "name": "Firefox",
+                    "score": 0
+                },
+                {
+                    "name": "360",
+                    "score": 0
+                },
+                {
+                    "name": "Quark",
+                    "score": 0
+                },
+                {
+                    "name": "UC",
+                    "score": 0
+                },
+                {
+                    "name": "QQ",
+                    "score": 0
+                },
+                {
+                    "name": "Opera",
+                    "score": 0
+                },
+                {
+                    "name": "搜狗",
+                    "score": 0
+                },
+                {
+                    "name": "2345",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "brand": "Android",
+            "device": "",
+            "rom": "Android",
+            "detail": [],
+            "browser": [
+                {
+                    "name": "Chrome",
+                    "score": 1
+                },
+                {
+                    "name": "百度浏览器",
+                    "score": 1
+                },
+                {
+                    "name": "手机百度",
+                    "score": 1
+                },
+                {
+                    "name": "Firefox",
+                    "score": 0
+                },
+                {
+                    "name": "360",
+                    "score": 0
+                },
+                {
+                    "name": "Quark",
+                    "score": 0
+                },
+                {
+                    "name": "UC",
+                    "score": 0
+                },
+                {
+                    "name": "QQ",
+                    "score": 0
+                },
+                {
+                    "name": "Opera",
+                    "score": 0
+                },
+                {
+                    "name": "搜狗",
+                    "score": 0
+                },
+                {
+                    "name": "2345",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "brand": "HUAWEI",
+            "device": "P8",
+            "rom": "EMUI",
+            "detail": [
+                "360：可见添加至桌面按钮，但属快捷方式",
+                "QQ/搜狗/猎豹/2345/Opera：目前浏览器未暴露添加桌面入口"
+            ],
+            "browser": [
+                {
+                    "name": "Chrome",
+                    "score": 1
+                },
+                {
+                    "name": "百度浏览器",
+                    "score": 1
+                },
+                {
+                    "name": "手机百度",
+                    "score": 1
+                },
+                {
+                    "name": "Firefox",
+                    "score": 0
+                },
+                {
+                    "name": "360",
+                    "score": 0
+                },
+                {
+                    "name": "Quark",
+                    "score": 0
+                },
+                {
+                    "name": "UC",
+                    "score": 0
+                },
+                {
+                    "name": "QQ",
+                    "score": 0
+                },
+                {
+                    "name": "Opera",
+                    "score": 0
+                },
+                {
+                    "name": "搜狗",
+                    "score": 0
+                },
+                {
+                    "name": "2345",
+                    "score": 0
+                }
+
+            ]
+        },
+        {
+            "brand": "VIVO",
+            "device": "X9",
+            "rom": "FuntouchOS",
+            "detail": [
+                "使用前，需在权限管理中将浏览器'添加桌面快捷方式'的权限开通"
+            ],
+            "browser": [
+                {
+                    "name": "Chrome",
+                    "score": 1
+                },
+                {
+                    "name": "百度浏览器",
+                    "score": 1
+                },
+                {
+                    "name": "手机百度",
+                    "score": 1
+                },
+                {
+                    "name": "Firefox",
+                    "score": 0
+                },
+                {
+                    "name": "360",
+                    "score": 0
+                },
+                {
+                    "name": "Quark",
+                    "score": 0
+                },
+                {
+                    "name": "UC",
+                    "score": 0
+                },
+                {
+                    "name": "QQ",
+                    "score": 0
+                },
+                {
+                    "name": "Opera",
+                    "score": 0
+                },
+                {
+                    "name": "搜狗",
+                    "score": 0
+                },
+                {
+                    "name": "2345",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "brand": "OPPO",
+            "device": "R9sk",
+            "rom": "ColorOS",
+            "detail": [
+                "ColorOS v2.1 版本：只对 Chrome 浏览器开通了添加到桌面的功能，手机百度、百度浏览器无法找到添加至桌面图标",
+                "ColorOS v3.0 版本：所有浏览器均未开通添加桌面权限，无法找到添加至桌面图标"
+            ],
+            "browser": [
+                {
+                    "name": "Chrome",
+                    "score": 1
+                },
+                {
+                    "name": "百度浏览器",
+                    "score": 1
+                },
+                {
+                    "name": "手机百度",
+                    "score": 1
+                },
+                {
+                    "name": "Firefox",
+                    "score": 0
+                },
+                {
+                    "name": "360",
+                    "score": 0
+                },
+                {
+                    "name": "Quark",
+                    "score": 0
+                },
+                {
+                    "name": "UC",
+                    "score": 0
+                },
+                {
+                    "name": "QQ",
+                    "score": 0
+                },
+                {
+                    "name": "Opera",
+                    "score": 0
+                },
+                {
+                    "name": "搜狗",
+                    "score": 0
+                },
+                {
+                    "name": "2345",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "brand": "MEIZU",
+            "device": "",
+            "rom": "Flyme",
+            "detail": [],
+            "browser": [
+                {
+                    "name": "Chrome",
+                    "score": 1
+                },
+                {
+                    "name": "百度浏览器",
+                    "score": 1
+                },
+                {
+                    "name": "手机百度",
+                    "score": 1
+                },
+                {
+                    "name": "Firefox",
+                    "score": 0
+                },
+                {
+                    "name": "360",
+                    "score": 0
+                },
+                {
+                    "name": "Quark",
+                    "score": 0
+                },
+                {
+                    "name": "UC",
+                    "score": 0
+                },
+                {
+                    "name": "QQ",
+                    "score": 0
+                },
+                {
+                    "name": "Opera",
+                    "score": 0
+                },
+                {
+                    "name": "搜狗",
+                    "score": 0
+                },
+                {
+                    "name": "2345",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "brand": "XIAOMI",
+            "device": "5S",
+            "rom": "MIUI",
+            "detail": [
+                "测试前需在权限管理中对浏览器开通添加桌面权限"
+            ],
+            "browser": [
+                {
+                    "name": "Chrome",
+                    "score": 1
+                },
+                {
+                    "name": "百度浏览器",
+                    "score": 1
+                },
+                {
+                    "name": "手机百度",
+                    "score": 1
+                },
+                {
+                    "name": "Firefox",
+                    "score": 0
+                },
+                {
+                    "name": "360",
+                    "score": 0
+                },
+                {
+                    "name": "Quark",
+                    "score": 0
+                },
+                {
+                    "name": "UC",
+                    "score": 0
+                },
+                {
+                    "name": "QQ",
+                    "score": 0
+                },
+                {
+                    "name": "Opera",
+                    "score": 0
+                },
+                {
+                    "name": "搜狗",
+                    "score": 0
+                },
+                {
+                    "name": "2345",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "brand": "iphone",
+            "device": "iphone 6",
+            "rom": "iOS",
+            "detail": [
+                "iOS 暂不支持该属性"
+            ],
+            "browser": []
+        }
+    ]
+}

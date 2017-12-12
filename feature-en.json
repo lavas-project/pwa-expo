@@ -1,0 +1,37 @@
+{
+    "features": [
+        {
+            "name": "Promise",
+            "infos": [
+                "UC mobile browser: Have not completed implementation on window scope."
+            ]
+        },
+        {
+            "name": "Request",
+            "infos": [
+                "UC mobile browser: Have not completed implementation on window scope.",
+                "Safari: 新版本已支持"
+            ]
+        },
+        {
+            "name": "Response",
+            "infos": [
+                "UC mobile browser: Have not completed implementation on window scope.",
+                "Safari: 新版本已支持",
+                "Chrome & Samsung Internet: URLSearchParams not supported yet [fixed in M-54]"
+            ]
+        },
+        {
+            "name": "Registered",
+            "infos": [
+                "UC mobile browser: UC take '/' as default scope. Which means you had better to specify your scope manually."
+            ]
+        },
+        {
+            "name": "self.skipWaiting",
+            "infos": [
+                "QQ 手机浏览器: 因 postMessage 缺失及 client.claim 不可用，暂无法确定"
+            ]
+        }
+    ]
+}
