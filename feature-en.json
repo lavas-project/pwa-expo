@@ -10,14 +10,14 @@
             "name": "Request",
             "infos": [
                 "UC mobile browser: Have not completed implementation on window scope.",
-                "Safari: 新版本已支持"
+                "Safari: Supported in the new version"
             ]
         },
         {
             "name": "Response",
             "infos": [
                 "UC mobile browser: Have not completed implementation on window scope.",
-                "Safari: 新版本已支持",
+                "Safari: Supported in the new version",
                 "Chrome & Samsung Internet: URLSearchParams not supported yet [fixed in M-54]"
             ]
         },
@@ -30,7 +30,79 @@
         {
             "name": "self.skipWaiting",
             "infos": [
-                "QQ 手机浏览器: 因 postMessage 缺失及 client.claim 不可用，暂无法确定"
+                "QQ: Lack of postMessage and unavailable of client.claim make us couldn't test it"
+            ]
+        },
+        {
+            "name": "clients.claim",
+            "infos": [
+                "UC mobile browser: The method exists，but doesn't work",
+                "QQ mobile browser: Doesn't work"
+            ]
+        },
+        {
+            "name": "lifecycle",
+            "infos": [
+                "UC mobile browser: The Client.claim is not available that makes us to update by shut the client only.",
+                "QQ mobile browser: The Client.claim is not available that makes us to update by shut the client only."
+            ]
+        },
+        {
+            "name": "fetch",
+            "infos": [
+                "Polyfill available"
+            ]
+        },
+        {
+            "name": "caches",
+            "infos": [
+                "Edge: In development"
+            ]
+        },
+        {
+            "name": "cache.delete",
+            "infos": [
+                "Chrome: Not all options supported until Chrome 54"
+            ]
+        },
+        {
+            "name": "cache.keys",
+            "infos": [
+                "Chrome: Not all options supported until Chrome 54"
+            ]
+        },
+        {
+            "name": "cache.match",
+            "infos": [
+                "Chrome: Not all options supported until Chrome 54"
+            ]
+        },
+        {
+            "name": "postMessage",
+            "infos": [
+                "UC mobile browser: Works. 但 API 实现不是最优选择。缺乏 event.source，clients.matchAll，且 messageChannel 不能正常使用 addEventListener",
+                "QQ mobile browser: Can't works well. Recevied the message by window.onmessage ",
+                "Chrome & Opera: Works well until Chrome 43",
+                "Chrome & Opera: Works well in new version"
+            ]
+        },
+        {
+            "name": "Notification",
+            "infos": [
+                "Xiaomi mobile browser: Notification object exists，but doesn't work",
+                "UC mobile browser: Notification object exists，but doesn't work",
+                "Edge: In development",
+                "This property depends on mobile phone system's openness, does not have to work."
+            ]
+        },
+        {
+            "name": "pushManager.subscribe",
+            "infos": [
+                "Chrome: Not available in China",
+                "Opera: Not available in China",
+                "Chrome mobile browser: Not available in China",
+                "360 mobile browser: Doesn't work",
+                "Baidu mobile browser: Doesn't work"
             ]
         }
     ]
