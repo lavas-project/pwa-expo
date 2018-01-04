@@ -336,6 +336,10 @@
             ],
             "browser": [
                 {
+                    "name": "小米",
+                    "score": 1
+                },
+                {
                     "name": "Chrome",
                     "score": 1
                 },

@@ -336,6 +336,10 @@
             ],
             "browser": [
                 {
+                    "name": "Xiaomi",
+                    "score": 1
+                },
+                {
                     "name": "Chrome",
                     "score": 1
                 },
