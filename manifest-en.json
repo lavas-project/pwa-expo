@@ -8,7 +8,7 @@
                 "Does not distinguish between ROM, we only statistics browser support",
                 "The Manifest characteristics statistics contains only mobile browser",
                 "Chrome：Part of the mobile phones need to manually open the permissions",
-                "Shoubai/Baidu browser/UC：After entering the page, the pop-up 'is added to the desktop' can support the Manifest Feature, and other add methods just created a shortcut menu",
+                "Shoubai/Baidu browser：After entering the page, the pop-up 'is added to the desktop' can support the Manifest Feature, and other add methods just created a shortcut menu",
                 "other mobile browsers：Only support to add a desktop shortcut currently "
             ],
             "browser": [
@@ -38,7 +38,7 @@
                 },
                 {
                     "name": "UC",
-                    "score": 1
+                    "score": 0
                 },
                 {
                     "name": "QQ",
@@ -90,7 +90,7 @@
                 },
                 {
                     "name": "UC",
-                    "score": 1
+                    "score": 0
                 },
                 {
                     "name": "QQ",
@@ -145,7 +145,7 @@
                 },
                 {
                     "name": "UC",
-                    "score": 1
+                    "score": 0
                 },
                 {
                     "name": "QQ",
@@ -200,7 +200,7 @@
                 },
                 {
                     "name": "UC",
-                    "score": 1
+                    "score": 0
                 },
                 {
                     "name": "QQ",
@@ -255,7 +255,7 @@
                 },
                 {
                     "name": "UC",
-                    "score": 1
+                    "score": 0
                 },
                 {
                     "name": "QQ",
@@ -307,7 +307,7 @@
                 },
                 {
                     "name": "UC",
-                    "score": 1
+                    "score": 0
                 },
                 {
                     "name": "QQ",
@@ -365,7 +365,7 @@
                 },
                 {
                     "name": "UC",
-                    "score": 1
+                    "score": 0
                 },
                 {
                     "name": "QQ",
