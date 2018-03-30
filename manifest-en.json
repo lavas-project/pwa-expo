@@ -390,9 +390,14 @@
             "device": "iphone 6",
             "rom": "iOS",
             "detail": [
-                "iOS does not support this property"
+                "most features of web app manifest have been supported by iOS 11.3"
             ],
-            "browser": []
+            "browser": [
+                {
+                    "name": "Safari",
+                    "score": 1
+                }
+            ]
         }
     ]
 }
