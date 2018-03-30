@@ -9,6 +9,7 @@
                 "The Manifest characteristics statistics contains only mobile browser",
                 "Chrome：Part of the mobile phones need to manually open the permissions",
                 "Shoubai/Baidu browser：After entering the page, the pop-up 'is added to the desktop' can support the Manifest Feature, and other add methods just created a shortcut menu",
+                "most features of web app manifest have been supported by iOS 11.3",
                 "other mobile browsers：Only support to add a desktop shortcut currently "
             ],
             "browser": [
@@ -16,6 +17,10 @@
                     "name": "Chrome",
                     "score": 1
                 },
+                {
+                    "name": "Safari",
+                    "score": 1
+                }
                 {
                     "name": "Baidu Browser",
                     "score": 1
